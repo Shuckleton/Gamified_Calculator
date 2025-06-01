@@ -1,0 +1,218 @@
+.body {
+    background-color: #050505; 
+    
+}
+
+.buttonContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    min-width: 300px; 
+    margin-right:10px;
+}
+
+.inputContainer {
+    flex: 2; 
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #111111;
+    min-width: 300px; 
+}
+.expressionClass {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: Arial;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mainContainer {
+    display: flex;
+    background-color: #0a0a0a; 
+    margin: 5px;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding:10px;
+    border: 2px solid white;
+}
+
+.commonText {
+    font-size: 20px;
+    color: white;
+    font-family: Arial;
+}
+
+.answerText {
+    font-size: 30px;
+    color: white;
+    font-family: Arial;
+}
+
+.inputClass {
+    background-color: #121212; 
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.entryContainer {
+    background-color: #111111; 
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.commonContainer {
+    background-color: #111111; 
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
+}
+
+
+.button {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #565656; 
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+
+
+.operatorButton {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #679a00; 
+    max-width: 20px;
+    padding: 10px 25px 10px 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+
+
+.equalButton {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #7B68EE; 
+    max-width: 20px;
+    padding: 10px 25px 10px 15px;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+
+.equalButton:disabled {
+    border-radius: 10px;
+    border: 2px solid #555;
+    background-color: #333;
+    max-width: 20px;
+    padding: 10px 25px 10px 15px;
+    font-size: 20px;
+    color: #777;
+    margin: 5px;
+}
+
+
+.deleteButton {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #af0000; 
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+}
+
+
+dialog {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial;
+    background-color: #111111;
+    color: white;
+}
+
+.dialogBtn {
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: #A020F0; 
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.achievementWrapper {
+    position: fixed;     
+    bottom: 0;            
+    left: 0;             
+    width: 100%;          
+    background-color: #151515;
+    border-top: 2px solid white;
+    padding: 10px;
+    z-index: 1000;        
+    border-radius: 0;     
+    box-sizing: border-box;
+}
+
+.achievementEntry {
+    background-color: #2d2d2d; 
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+
+
+
+.button:hover {
+    background-color: #939393;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #c6c6c6;
+}
+
+.operatorButton:hover {
+    background-color: #FFF44F;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #FFF44F;
+}
+
+.equalButton:hover:enabled {
+    background-color: #9B81F7;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #9B81F7;
+}
+
+.deleteButton:hover {
+    background-color: #FF5757;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #FF5757;
+}
+
+.dialogBtn:hover {
+    background-color: #C361FF;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #C361FF;
+}

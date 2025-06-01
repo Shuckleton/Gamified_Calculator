@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Gaming Calculator</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body class = "body">
+
+    <div class ="commonContainer">
+        <span class ="commonText">  Gamified Calculator</span>
+        <br/>
+        <span class ="commonText">Memory: </span>
+        <span id = "limitLbl" class = "commonText">--</span>
+        <span class ="commonText">--</span>
+        <br/>
+        <br/>
+        <button id = "resetBtn" class = "deleteButton">Reset</button>
+    </div>
+
+    <div class ="mainContainer">
+        <div class="buttonContainer">
+            <div>
+                <button id="sevenBtn" class="button" value="7">7</button> 
+                <button id="eightBtn" class="button" value="8">8</button>
+                <button id="nineBtn" class="button" value="9">9</button>
+                <button id="divideBtn" class="operatorButton" value="/">/</button>
+            </div>
+            <div>
+                <button id="fourBtn" class="button" value="4">4</button>
+                <button id="fiveBtn" class="button" value="5">5</button>
+                <button id="sixBtn" class="button" value="6">6</button>
+                <button id="multiplyBtn" class="operatorButton" value="*">*</button>
+            </div>
+            <div>
+                <button id="oneBtn" class="button" value="1">1</button>
+                <button id="twoBtn" class="button" value="2">2</button>
+                <button id="threeBtn" class="button" value="3">3</button>
+                <button id="subtractBtn" class="operatorButton" value="-">-</button>
+            </div>
+            <div>
+                <button id="zeroBtn" class="button" value="0">0</button>
+                <button id="backspaceBtn" class="button"><</button>
+                <button id="equalBtn" class="equalButton" value="=">=</button>
+                <button id="addBtn" class="operatorButton" value="+">+</button>
+            </div>
+        </div>
+
+
+            
+        <div class ="inputContainer">
+            <span class ="commonText">Input math expression here: </span>
+            <br/>
+            <br/>
+            <input id="inputField" class ="inputClass" type="text"/>
+            <br/>
+            <br/>
+            <br/>
+            <div>
+                <span class ="commonText">Answer: </span><span id ="answerLbl" class ="answerText"> -- </span>
+            </div>
+            <br/>
+        </div>
+
+    </div>
+    <div class ="commonContainer">
+        <span class = "commonText">History</span>
+        <br/>
+        <br/>
+        <div id ="taskContainer">
+        
+        </div>
+
+    </div>
+    
+    
+    <div class ="achievementWrapper">
+        <span class = "commonText">Completed Achievements</span>
+        <div id ="achievementContainer">
+        
+        </div>
+    </div>
+
+    
+
+
+    <script src="scripts/doms.js"></script>
+    <script src="scripts/soundModule.js"></script>
+    <script src="scripts/dialog.js"></script>
+    <script src="scripts/eventListeners.js"></script>
+    <script src="scripts/operators.js"></script>
+    <script src="scripts/achievements.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
